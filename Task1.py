@@ -34,7 +34,8 @@ y = "Kaito"
 
 for i in y:
      print(i)
-     
+
+#Task 4  
 
 n = 51
 sum = 0
@@ -42,3 +43,27 @@ for i in range(n):
      sum = sum+i
      
 print(sum)
+
+#Task 5
+
+
+h = 5
+
+for i in range(1,11):
+     print(f"{h} x {i} = {h*i}")
+     
+#Task 6
+
+lm = "Nikkaa"
+sm = ""
+
+for i in range(len(lm)):
+      sm = lm[len(lm) - 1 - i]
+      print(sm, end="")
+
+# Another Way
+for i in reversed(lm):
+     print(i)
+
+
+     
